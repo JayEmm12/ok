@@ -398,7 +398,7 @@ border-radius: 20px;
   
   
   
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 600px) {
    
     .main {
       min-height: 100vh;
