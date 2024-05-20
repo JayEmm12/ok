@@ -18,6 +18,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
   }
   
   .navbar {
@@ -30,7 +31,7 @@
     border-radius: 2px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     background-color: black;
   }
   
@@ -182,30 +183,50 @@
     height: 60px;
     margin-top: 100px;
   }
-  .rec4 i {
+  .web i {
     width: 24px;
     height: 24px;
-    margin-left: 80px;
-    margin-top: 70px;
-  
-    background-color: #ff7200;
-    margin-top: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: red;
   }
-  .rec5 h2 {
-    width: 226px;
-    height: 20px;
-    margin-left: 70px;
-    margin-top: 70px;
-  
-    font-family: "Poppins";
+  .web span{
+    /* Web Development */
+
+width: 226px;
+height: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 20px;
+/* identical to box height, or 83% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+  }
+  .web p {
+    width: 283px;
+    height: 120px;
+    
+    font-family: 'Raleway';
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 14px;
     line-height: 20px;
-    /* identical to box height, or 83% */
-  
+    /* or 143% */
+    letter-spacing: 0.025em;
+    
     color: #000000;
-  
+    
+    
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -233,6 +254,146 @@
     gap: 20px;
     flex-direction: column;
   }
+  .rec4{
+    /* Web Development Card */
+
+position: absolute;
+width: 333px;
+height: 169px;
+left: 500px;
+top: 500px;
+
+background: #FFEBD1;
+border-radius: 20px;
+
+  }
+  .app i{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: red;
+  }
+  .app span{
+    width: 221px;
+height: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 20px;
+/* identical to box height, or 83% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  .app p{
+    width: 274px;
+height: 120px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+letter-spacing: 0.025em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  .rec5{
+    /* App Development Card */
+
+position: absolute;
+width: 333px;
+height: 169px;
+left: 443px;
+top: 0px;
+
+background: #F2F7FC;
+border-radius: 20px;
+
+  }
+.ui span{
+  position: absolute;
+  width: 206px;
+  height: 40px;
+  left: 49px;
+  top: 24px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height, or 167% */
+  letter-spacing: 0.025em;
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+  
+}
+.ui p{
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  left: 18px;
+  top: 64px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  letter-spacing: 0.025em;
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  z-index: 3;
+  
+}
+.rec6{
+  isplay: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  isolation: isolate;
+  
+  position: absolute;
+  width: 333px;
+  height: 169px;
+  left: 5px;
+  top: 200px;
+  background: #FFEBD1;
+  border-radius: 20px;
+
+
+}
   
   
   
