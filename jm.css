@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(da.jpg);
+    background-size: contain;
+    /* height: 100vh; */
+  }
+  
+  .content {
+    margin-top: 200px;
+    display: flex;
+    font-size: 3.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    min-width: none;
+    width: 100wh;
+    height: 120px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: start;
+  }
+  ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 25px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+  }
+  
+  ul li a:hover {
+    color: red;
+  }
+.a{
+    position: absolute;
+    width: 168px;
+    height: 20px;
+    left: 102px;
+    top: 250px;
+
+    font-family: 'Rakkas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 20px;
+    /* identical to box height, or 16% */
+    color: #FFFFFF;
+}
+.b{
+    position: absolute;
+    width: 744px;
+    height: 20px;
+    left: 450px;
+    top: 450px;
+
+    font-family: 'Rakkas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 20px;
+    /* identical to box height, or 16% */
+
+    color: #FFFFFF;
+
+}

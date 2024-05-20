@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(da.jpg);
+    background-size: contain;
+    /* height: 100vh; */
+  }
+  
+  .content {
+    margin-top: 200px;
+    display: flex;
+    font-size: 3.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    min-width: none;
+    width: 100wh;
+    height: 120px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: start;
+  }
+  ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 25px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+  }
+  
+  ul li a:hover {
+    color: red;
+  }
+  .button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+  
+    color: blue;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 400px;
+    height: 700px;
+    /* left: 200px; */
+    top: 300px;
+    background: #ffffff;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+  
+  .rec1 {
+    /* contact card */
+    margin-top: 220px;
+    margin-left: 30px;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+  
+    background: #bbcbe1;
+    border-radius: 20px;
+  }
+  
+  .phone {
+    margin-top: 50px;
+    width: 10wh;
+    height: 50px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+  }
+  .phone p {
+    margin-left: 20px;
+    color: #0b0909;
+  }
+  .phone i {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: red;
+  }
+  
+  .email {
+    margin-top: 20px;
+    width: 10wh;
+    height: 50px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+  }
+  .email i {
+    margin-left: 20px;
+    color: red;
+  }
+  .emai a {
+    margin-left: 20px;
+    color: #ffffff;
+  }
+  .location {
+    margin-top: 20px;
+    width: 10wh;
+    height: 50px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+  }
+  .location i {
+    margin-left: 20px;
+    color: red;
+  }
+  .location p {
+    display: flex;
+    margin-left: 20px;
+    color: #0b0909;
+  }
+  .about-me {
+    padding: 20px 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 820px;
+    height: 700px;
+  
+    background: #ffffff;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+  
+  .line h1 span {
+    color: orange;
+  }
+  .line p {
+    margin-top: 30px;
+  }
+  
+  .do h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 191px;
+    height: 60px;
+    margin-top: 100px;
+  }
+  .rec4 i {
+    width: 24px;
+    height: 24px;
+    margin-left: 80px;
+    margin-top: 70px;
+  
+    background-color: #ff7200;
+    margin-top: 100px;
+  }
+  .rec5 h2 {
+    width: 226px;
+    height: 20px;
+    margin-left: 70px;
+    margin-top: 70px;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .main-content {
+    margin-top: 180px;
+    margin: 180px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .icon {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .profile-name {
+    display: flex;
+    place-items: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 992px) {
+   
+    .main {
+      min-height: 100vh;
+      width: 100%;
+      background-color: #0b0909 ;
+      background-size: contain;
+      height: 100vh;
+    }
+  
+  
+  
+   
+  }
