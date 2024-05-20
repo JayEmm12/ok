@@ -261,7 +261,7 @@ position: absolute;
 width: 333px;
 height: 169px;
 left: 500px;
-top: 500px;
+top: 600px;
 
 background: #FFEBD1;
 border-radius: 20px;
@@ -319,8 +319,8 @@ flex-grow: 0;
 position: absolute;
 width: 333px;
 height: 169px;
-left: 443px;
-top: 0px;
+left: 900px;
+top: 600px;
 
 background: #F2F7FC;
 border-radius: 20px;
@@ -387,8 +387,8 @@ border-radius: 20px;
   position: absolute;
   width: 333px;
   height: 169px;
-  left: 5px;
-  top: 200px;
+  left: 500px;
+  top: 800px;
   background: #FFEBD1;
   border-radius: 20px;
 
@@ -397,8 +397,7 @@ border-radius: 20px;
   
   
   
-  
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 992px) {
    
     .main {
       min-height: 100vh;
