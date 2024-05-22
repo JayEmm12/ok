@@ -378,7 +378,7 @@ flex-grow: 0;
 
 .row{
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .column{
@@ -388,7 +388,7 @@ flex-grow: 0;
 
 .column-1{
   float: left;
-  flex: 50%;
+  flex: 100%;
 }
 
 .card{
@@ -396,10 +396,36 @@ flex-grow: 0;
   background-color: whitesmoke;
 }
 
+.skills{
+  padding: 20px 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 820px;
+    height: 700px;
+  
+    background: #ffffff;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.row1{
+  display: flex;
+  gap: 10px;
+  margin-top: 100px;
+  ;
+}
+
+.row2{
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+
+}
+
 
   
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 992spx) {
    
     .main {
       min-height: 100vh;
