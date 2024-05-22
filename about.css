@@ -399,7 +399,7 @@ flex-grow: 0;
 
   
   
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 500px) {
    
     .main {
       min-height: 100vh;
