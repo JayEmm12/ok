@@ -422,6 +422,14 @@ flex-grow: 0;
 
 }
 
+.row3{
+  display: flex;
+  gap: 10px;
+  margin-top: 150px;
+
+  
+}
+
 
   
   
