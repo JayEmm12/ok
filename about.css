@@ -388,7 +388,7 @@ flex-grow: 0;
 
 .column-1{
   float: left;
-  flex: 100%;
+  flex: 50%;
 }
 
 .card{
