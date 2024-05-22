@@ -17,7 +17,7 @@
   }
   
   .content {
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
     font-size: 3.5rem;
     flex-direction: column;
@@ -396,7 +396,6 @@ flex-grow: 0;
 
 .card i{
   color: red;
-
 }
 
 .skills{
