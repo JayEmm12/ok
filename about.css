@@ -510,7 +510,7 @@ flex-grow: 0;
     
 
     .main{
-      height: 260vh;
+      height: 200vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -556,7 +556,7 @@ flex-grow: 0;
     
 
     .main{
-      height: 260vh;
+      height: 200vh;
       display: flex;
       flex-direction: column;
       align-items: center;
