@@ -431,6 +431,10 @@ flex-grow: 0;
 
   
 }
+.column .card h4{
+  width: 226px;
+  height: 20px;
+}
 
 
   
