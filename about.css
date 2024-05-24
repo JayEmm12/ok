@@ -507,10 +507,8 @@ flex-grow: 0;
 
   @media screen and (max-width: 600px) {
    
-    
-
     .main{
-      height: 280vh;
+      height: 260vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -556,7 +554,7 @@ flex-grow: 0;
     
 
     .main{
-      height: 280vh;
+      height: 260vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -595,6 +593,7 @@ flex-grow: 0;
   
     .navbar .navlist li a{
       font-size: 12px;
+    }
     }
     
     @media screen and (max-width: 600px) {
@@ -642,3 +641,4 @@ flex-grow: 0;
       .navbar .navlist li a{
         font-size: 12px;
       }
+    }

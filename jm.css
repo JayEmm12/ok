@@ -88,6 +88,12 @@
     color: #FFFFFF;
 
 }
+.rect{
+  width: 400px;
+  height: 340px;
+  background-color: red;
+  align-items: center;
+}
 
 
 
