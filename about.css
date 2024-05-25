@@ -457,7 +457,7 @@ flex-grow: 0;
 
   
   
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 600px) {
    
     
 
@@ -551,6 +551,7 @@ flex-grow: 0;
     .navbar .navlist li a{
       font-size: 12px;
     }
+  }
     
     @media screen and (max-width: 600px) {
    
