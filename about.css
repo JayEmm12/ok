@@ -8,6 +8,7 @@
   
   .main {
     min-height: 100vh;
+    margin-top: 50px;
     width: 100%;
     /*background-image: url(da.jpg);*/
     background-size: contain;
@@ -47,7 +48,8 @@
     position: sticky;
     z-index: 10;
     top: 0;
-    min-width:100%;
+    min-width:none;
+    width: ;
     height: 120px;
     border-radius: 2px;
     display: flex;
