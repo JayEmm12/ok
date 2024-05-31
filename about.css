@@ -80,7 +80,7 @@
     color: red;
   }
 
-  .button {
+  /*.button {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -88,7 +88,7 @@
     margin-left: 10px;
   
     color: blue;
-  }
+  }*/
   
   .profile {
     display: flex;
@@ -102,10 +102,10 @@
     background: #ffffff;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-  }
+  }*/
   
   .rec1 {
-    /* contact card */
+  
     margin-top: 220px;
     margin-left: 30px;
     position: absolute;
@@ -327,7 +327,7 @@ order: 1;
 flex-grow: 0;
   }
 
-.ui span{
+/* .ui span{ 
   position: absolute;
   width: 206px;
   height: 40px;
@@ -339,19 +339,19 @@ flex-grow: 0;
   font-weight: 600;
   font-size: 24px;
   line-height: 40px;
-  /* identical to box height, or 167% */
+
   letter-spacing: 0.025em;
   
   color: #000000;
   
   
-  /* Inside auto layout */
+
   flex: none;
   order: 2;
   flex-grow: 0;
   z-index: 2;
   
-}
+} */
 .ui p{
   position: absolute;
   width: 300px;
@@ -435,20 +435,20 @@ flex-grow: 0;
   ;
 }
 
-.row2{
+/* .row2{ 
   display: flex;
   gap: 10px;
   margin-top: 5px;
 
-}
+ } */
 
-.row3{
+.row3{ 
   display: flex;
   gap: 10px;
   margin-top: 150px;
 
   
-}
+} 
 .column .card h4{
   width: 226px;
   height: 20px;
@@ -519,7 +519,7 @@ flex-grow: 0;
       
     }
   
-    .about-me {
+    /* .about-me { 
       display: flex;
       gap: 20px;
       flex-direction: column;
@@ -527,7 +527,7 @@ flex-grow: 0;
       height: auto;
       box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
       border-radius: 20px;
-    }
+    } */
     .skills {
       display: flex;
       gap: 20px;
@@ -566,15 +566,15 @@ flex-grow: 0;
       
     }
   
-    .about-me {
+    /* .about-me { 
       display: flex;
       gap: 20px;
       flex-direction: column;
       width: auto;
       height: auto;
       box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
-      border-radius: 20px;
-    }
+     border-radius: 20px; 
+    } */
     .skills {
       display: flex;
       gap: 20px;
@@ -613,15 +613,15 @@ flex-grow: 0;
         
       }
     
-      .about-me {
+      /* .about-me { 
         display: flex;
         gap: 20px;
         flex-direction: column;
         width: auto;
         height: auto;
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
-        border-radius: 20px;
-      }
+         border-radius: 20px; 
+      }*/
       .skills {
         display: flex;
         gap: 20px;
